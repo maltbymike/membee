@@ -1,0 +1,47 @@
+.MembeeEventWrapper {
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 2rem;
+  font-family: 'Noto Sans',sans-serif;
+  color: #4b4f58;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.MembeeEvent {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+  box-shadow: 0px 0px 15px #4B4F58;
+  box-sizing: border-box;
+  width: 350px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+.MembeeEventLink {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.MembeeEventLink_image {
+  order: -1;
+  min-height: 200px;
+  background-color: #105898;
+  display: block !important;
+}
+
+.MembeeEventLink_text {
+  color: #3a3a3a;
+  font-size: 1.125rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+}
+
+.MembeeEventLink_text:hover {
+  color: #e93c42;
+}
